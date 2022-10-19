@@ -9,7 +9,8 @@
         "dest": "/src/index.js"
     }],
     "rewrites": [{
-        "source": "/api/(.*)"
+        "source": "/api/(.*)",
+        "destination": "/"
     }],
     "headers": [{
         "source": "/api/(.*)",

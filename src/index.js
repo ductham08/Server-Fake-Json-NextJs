@@ -4,7 +4,7 @@ const path = require("path");
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middlewares = jsonServer.defaults({
-    noCors: false,
+    noCors: true,
 });
 server.db = router.db;
 

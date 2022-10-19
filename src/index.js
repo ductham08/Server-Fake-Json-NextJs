@@ -4,7 +4,7 @@ const path = require("path");
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middlewares = jsonServer.defaults({
-    noCors: false,
+    noCors: true,
 });
 server.db = router.db;
 
@@ -15,7 +15,6 @@ const rules = auth.rewriter({
 });
 
 // You must apply the middlewares in the following order
-server.use(cors());
 server.use(rules);
 server.use(auth);
 

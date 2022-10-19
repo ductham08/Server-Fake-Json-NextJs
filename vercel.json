@@ -8,14 +8,9 @@
         "src": "/(.*)",
         "dest": "/src/index.js"
     }],
-    "functions": {
-        "api/*.js": {
-            "maxDuration": 30
-        }
-    },
     "rewrites": [{
         "source": "/api/(.*)",
-        "destination": "/src/index.js"
+        "destination": null
     }],
     "headers": [{
         "source": "/api/(.*)",

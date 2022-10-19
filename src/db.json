@@ -1,0 +1,77 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "Honey Mustand",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_02_eclwvh.png",
+            "price": 23,
+            "categoryId": 2,
+            "order": 150,
+            "createAt": "23/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        },
+        {
+            "id": 2,
+            "name": "Chili Lime",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_hloper.png",
+            "price": 22,
+            "categoryId": 2,
+            "order": 100,
+            "createAt": "29/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        },
+        {
+            "id": 3,
+            "name": "French Dip",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_01_iqanmo.png",
+            "price": 27,
+            "categoryId": 1,
+            "order": 95,
+            "createAt": "30/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        }
+    ],
+    "new_dishes": [{
+            "id": 1,
+            "name": "Honey Mustand",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
+            "price": 23,
+            "order": 150,
+            "createAt": "23/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        },
+        {
+            "id": 2,
+            "name": "Chili Lime",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
+            "price": 22,
+            "order": 100,
+            "createAt": "29/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        },
+        {
+            "id": 3,
+            "name": "Winding Salad",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
+            "price": 27,
+            "order": 95,
+            "createAt": "30/09/2022",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
+        }
+    ],
+    "categories": [{
+            "id": 1,
+            "name": "Desserts"
+        },
+        {
+            "id": 2,
+            "name": "Main course "
+        }
+    ],
+    "users": [{
+        "email": "admin@gmail.com",
+        "password": "$2a$10$cBIW4Izls1Z5XOwMmHHh4uqgOCdoNqOOaiBZEesy6yadq8iVW88nq",
+        "name": "Thắm",
+        "id": 1,
+        "role": 1
+    }]
+}

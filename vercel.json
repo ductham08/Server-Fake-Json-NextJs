@@ -9,11 +9,11 @@
         "dest": "/src/index.js"
     }],
     "rewrites": [{
-        "source": "/(.*)",
-        "destination": "https://bee-navy.vercel.app"
+        "source": "/api/(.*)",
+        "destination": "/(.*)"
     }],
     "headers": [{
-        "source": "/(.*)",
+        "source": "/api/(.*)",
         "headers": [
             { "key": "Access-Control-Allow-Credentials", "value": "true" },
             { "key": "Access-Control-Allow-Origin", "value": "*" },

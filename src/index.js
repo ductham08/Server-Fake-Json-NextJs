@@ -15,6 +15,7 @@ const rules = auth.rewriter({
 });
 
 // You must apply the middlewares in the following order
+server.use(cors());
 server.use(rules);
 server.use(auth);
 

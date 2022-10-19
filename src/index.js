@@ -21,8 +21,6 @@ server.use(auth);
 
 server.use(middlewares);
 server.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", '*');
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
     if (req.method === "POST") {
         req.body.createAt = Date.now();
@@ -34,6 +32,6 @@ server.use((req, res, next) => {
 });
 
 server.use("/api", router);
-server.listen(8080, () => {
+server.listen(4200, () => {
     console.log("JSON Server is running");
 });

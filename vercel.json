@@ -10,7 +10,7 @@
     }],
     "rewrites": [{
         "source": "/api/(.*)",
-        "destination": null
+        "destination": ""
     }],
     "headers": [{
         "source": "/api/(.*)",

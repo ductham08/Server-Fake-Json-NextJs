@@ -10,7 +10,7 @@
     }],
     "rewrites": [{
         "source": "/api/(.*)",
-        "destination": "/"
+        "destination": "/src/index.js"
     }],
     "headers": [{
         "source": "/api/(.*)",

@@ -28,33 +28,34 @@
             "order": 95,
             "createAt": "30/09/2022",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
-        }
-    ],
-    "new_dishes": [{
-            "id": 1,
-            "name": "Honey Mustand",
-            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
-            "price": 23,
-            "order": 150,
-            "createAt": "23/09/2022",
+        },
+        {
+            "id": 4,
+            "name": "French Dip New",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_01_iqanmo.png",
+            "price": 30,
+            "categoryId": 1,
+            "order": 95,
+            "createAt": "20/09/2022",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
         },
         {
-            "id": 2,
-            "name": "Chili Lime",
-            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
+            "id": 5,
+            "name": "Chili Lime New",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_hloper.png",
             "price": 22,
+            "categoryId": 2,
             "order": 100,
             "createAt": "29/09/2022",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
-        },
-        {
-            "id": 3,
-            "name": "Winding Salad",
-            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_new_dishes_tinbem.png",
-            "price": 27,
-            "order": 95,
-            "createAt": "30/09/2022",
+        }, {
+            "id": 6,
+            "name": "Honey Mustand New",
+            "image": "https://res.cloudinary.com/ductham087/image/upload/v1664609758/Bee%20Food/img_detail_product_02_eclwvh.png",
+            "price": 23,
+            "categoryId": 2,
+            "order": 150,
+            "createAt": "23/09/2022",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium dolor sed turpis interdum pulvinar. In tincidunt vulputate dolor nec euismod. In luctus finibus euismod. Aliquam et turpis ut ex dapibus semper. Nunc malesuada nec lacus nec tristique. Phasellus auctor justo a orci tristique, ac porttitor eros auctor. Nam at euismod orci, ut lobortis elit."
         }
     ],
@@ -68,10 +69,18 @@
         }
     ],
     "users": [{
-        "email": "admin@gmail.com",
-        "password": "$2a$10$cBIW4Izls1Z5XOwMmHHh4uqgOCdoNqOOaiBZEesy6yadq8iVW88nq",
-        "name": "Thắm",
-        "id": 1,
-        "role": 1
-    }]
+            "email": "admin@gmail.com",
+            "password": "$2a$10$.QFAKaNwSzx2rtIhY3Ed7Ow8wEczzlp2zJqfgR7aQso.9WU4ZIDBG",
+            "name": "Nguyễn Đức Thắm",
+            "id": 1,
+            "role": 1
+        },
+        {
+            "email": "admin123@gmail.com",
+            "password": "$2a$10$Em.dK58vEQk6isy4rD2JI.hu1gTPevLGRVGZfHApR60ruU6ApSEoK",
+            "name": "Vẫn Là Thắm",
+            "id": 2,
+            "role": 0
+        }
+    ]
 }

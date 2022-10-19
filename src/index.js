@@ -5,6 +5,7 @@ const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middlewares = jsonServer.defaults({
     noCors: false,
+
 });
 server.db = router.db;
 
@@ -20,6 +21,9 @@ server.use(auth);
 
 server.use(middlewares);
 server.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", 'bee-navy.vercel.app');
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+
     if (req.method === "POST") {
         req.body.createAt = Date.now();
         req.body.updateAt = Date.now();

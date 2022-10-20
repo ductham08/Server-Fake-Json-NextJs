@@ -14,5 +14,12 @@
             "PATCH",
             "DELETE"
         ]
+    }],
+    "headers": [{
+        "source": "/(.*)",
+        "headers": [{
+            "key": "access-control-allow-origin",
+            "value": "*"
+        }]
     }]
 }
